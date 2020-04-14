@@ -3,7 +3,6 @@ var arr =Array.from(question)
 
  function get(id,back){
     $.ajax({
-        async: false,
         type: "get",
         url: "https://api.ulearning.cn/questionAnswer/" + id,
         datatype: "json",
