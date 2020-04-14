@@ -17,6 +17,6 @@ var arr =Array.from(question)
  arr.forEach(one=>{
     let id= one.dataset.id;
     get(id,function(Answer){
-        Array.from(one.children)[0].innerText+="=========´ð°¸ÊÇ:"+Answer;
+        Array.from(one.children)[0].innerText+="========ç­”æ¡ˆæ˜¯:"+Answer;
     })
  })
